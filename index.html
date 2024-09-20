@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI NIÑA</title>
+    <!-- Importar la fuente romántica desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1, h2 {
+            color: #FFD700; /* Dorado brillante para mayor contraste */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive; /* Fuente romántica */
+            font-size: 8vw;
+            animation: fadeInOut 3s infinite; /* Animación suave */
+        }
+
+        h2 {
+            font-family: 'Dancing Script', cursive; /* Fuente romántica */
+            font-size: 4vw;
+            margin-top: 20px;
+            animation: pulse 2s infinite; /* Pequeño efecto de pulsación */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            font-size: 3vw;
+            padding: 15px 30px;
+            margin-top: 30px;
+            border: 2px solid #FFD700; /* Borde dorado */
+            background-color: #4B0082; /* Un color lila oscuro para más contraste */
+            color: #FFD700; /* Texto dorado */
+            cursor: pointer;
+            border-radius: 50px;
+            box-shadow: 2px 2px 15px rgba(255, 215, 0, 0.5); /* Sombra dorada */
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6A0DAD; /* Cambia el color a un lila más brillante en hover */
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% {
+                opacity: 0.8;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MI AMOR💕</h1>
+        <h2>Tengo un regalo para ti</h2>
+        <button onclick="window.location.href='flores.html'">Ver</button>
+    </div>
+</body>
+</html>
